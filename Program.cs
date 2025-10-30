@@ -67,6 +67,10 @@
 
 
 
+// zadanie 3
+
+
+
 // импорт только что созданной библеотеки
 using SemenLibrary;
 
@@ -84,3 +88,25 @@ double res2 = semen.delenieNaPoltora(12);
 Console.WriteLine(res2);
 
 Console.WriteLine(semen.chetnost(2));
+
+
+
+// zadanie 4
+
+
+try
+{
+    int a = 5;
+    int b = 0;
+    int result = a / b;
+    Console.WriteLine($"Результат: {result}");
+}
+catch (Exception ex)
+{
+    Console.WriteLine($"Исключение: {ex.Message}");
+    Console.WriteLine($"На ноль делить нельзя!!!");
+}
+finally
+{
+    Console.WriteLine("Программа завершила свою работу");
+}
