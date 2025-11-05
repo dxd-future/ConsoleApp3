@@ -110,3 +110,5 @@ finally
 {
     Console.WriteLine("Программа завершила свою работу");
 }
+
+// test
